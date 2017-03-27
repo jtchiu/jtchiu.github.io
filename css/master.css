@@ -58,8 +58,7 @@ pre {
 }
 
 .container-fluid{
-  background-color: #000000;
-
+  background-color: rgba(0,0,0,.9);
 }
 
 .navbar .nav > li > a{
@@ -77,13 +76,24 @@ pre {
   text-shadow: none;
 }
 
-.navbar-default .navbar-header > a {
-  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-  color: #FFFFFF;
-  padding-left: 25px;
+.github{
+
 }
 
-.navbar-default .navbar-header > a:hover {
+.fa{
+  color: #FFFFFF;
+}
+
+.fa:hover{
+  color: #3498db;
+}
+
+.myName{
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand > a:hover {
     color: #FFFFFF;
 }
 
@@ -108,4 +118,17 @@ pre {
   display: block;
   margin: 0 auto;
   text-align: center;
+}
+
+.collapsedNav{
+  color: #FFFFFF;
+}
+
+.navbar-toggle{
+  color: #FFFFFF;
+}
+
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
 }

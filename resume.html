@@ -2,36 +2,45 @@
 <html lang="en">
 
 <head>
-  <title>Justin Chiu</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Justin Chiu</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/master.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand">Justin Chiu</a>
-      <a href="https://github.com/jtchiu"><p class="navbar-text github"><i class="fa fa-github fa-lg" aria-hidden="true">
-      </i>
-    </p>
-  </a>
-      <a href="https://www.linkedin.com/in/justin-chiu-713497128"><p class="navbar-text linkedin"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true">
-      </i>
-    </p>
-  </a>
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".collapsedNav">
+          <span class="glyphicon glyphicon-unchecked"></span>
+        </button>
+          <a class="navbar-brand"><div class = myName>Justin Chiu</div>
+            <div class="gitLink">
+              <a href="https://github.com/jtchiu"><p class="navbar-text img-responsive github"><i class="fa fa-github fa-lg" aria-hidden="true">
+                </i>
+                  </p>
+              </a>
+                <!--<a href="https://www.linkedin.com/in/justin-chiu-713497128"><p class="navbar-text img-responsive linkedin"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true">
+                  </i>
+                    </p>
+                </a>-->
+            </div>
+          </a>
+            <div class = "collapse navbar-collapse collapsedNav">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="active"><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+              </ul>
+            </div>
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="index.html">About Me</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li class="active"><a href="resume.html">Resume</a></li>
-      <li><a href="contact.html">Contact Me</a></li>
-    </ul>
   </div>
-  </nav>
 
   <div class="jumbotron">
 
@@ -46,10 +55,10 @@
 
 
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
 
-
-
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script></body>
 
 </html>
