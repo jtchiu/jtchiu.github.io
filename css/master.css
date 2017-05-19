@@ -1,83 +1,103 @@
 body{
-  padding-bottom: 70px;
-}
-h1 {
-	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-}
-h3 {
-	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-	font-size: 18px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 15.4px;
-}
-p {
-	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-}
-blockquote {
-	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 30px;
-}
-pre {
-	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-	font-size: 13px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 18.5714px;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
 }
 
-.profile_picture {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%;
+#home{
+    background-image: url(/images/black-background.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    overflow: hidden;
+}
+
+#about_me{
+    background-color: #32124f;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 175vh;
+    width: 100vw;
+    background-image: -webkit-gradient(
+      linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+      to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
+    );
+    background-image: -moz-linear-gradient(
+      rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%
+    );
+    overflow: hidden;
+}
+
+#project_page{
+  background-color: #34495e;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  height: 100vh;
+  width: 100vw;
+    background-image: -webkit-gradient(
+      linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+      to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
+    );
+    background-image: -moz-linear-gradient(
+      rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%
+    );
+}
+
+#resume_page{
+  background-color: #560f16;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  height: 125vh;
+  width: 100vw;
+    background-image: -webkit-gradient(
+      linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+      to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
+    );
+    background-image: -moz-linear-gradient(
+      rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%
+    );
+}
+
+.about_info{
+  color: #FFFFFF;
+  margin-top: 5em;
+}
+
+.project_info{
+  color: #FFFFFF;
+  margin-top: 5em;
 
 }
 
-.jumbotron{
-  margin-top: 35px;
-  text-align: center;
-  background-color: #ecf0f1;
+.projects{
+    text-align: center;
 }
 
-.container-fluid{
-  background-color: rgba(0,0,0,.9);
-}
-
-.navbar .nav > li > a{
-  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+.navbar{
+  background-color: rgba(0, 0, 0, 0.75);
+  border-color: transparent;
   color: #FFFFFF;
 }
 
-.navbar .nav > li > a:hover{
-  color: #3498db;
-  text-shadow: none;
-}
-
-.navbar .nav > li > a:.active{
-  color: #3498db;
-  text-shadow: none;
-}
-
-.github{
-
+#main_navbar a{
+  color: #FFFFFF;
 }
 
 .fa{
@@ -89,49 +109,139 @@ pre {
 }
 
 .myName{
-  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
   color: #FFFFFF;
 }
 
-.navbar-default .navbar-brand > a:hover {
-    color: #FFFFFF;
+.navbar-default .navbar-nav > .active{
+  color: #3498db;
+  background-color: transparent;
 }
 
-.content_1{
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.content_2{
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.content_3{
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.content_4{
-  padding-left: 50px;
-  padding-right: 50px;
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #3498db;
+  background-color: transparent;
 }
 
-.resume {
-  display: block;
-  margin: 0 auto;
+.home_info{
+  color: #FFFFFF;
+  margin-top: 8.8em;
+  font-size: 2.8em;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.resume{
+    margin-top: 100%;
+    align-content: center;
+    
+
+}
+#about_me label{
   text-align: center;
-}
-
-.collapsedNav{
-  color: #FFFFFF;
-}
-
-.navbar-toggle{
-  color: #FFFFFF;
-}
-
-.why_comp_sci{
-  margin-bottom: 1em;
+    margin: 1em;
 }
 
 .favorite_proj{
+  background-color: transparent;
+  color: #FFFFFF;
   margin-bottom: 1em;
+}
+
+.why_comp_sci{
+  background-color: transparent;
+  color: #FFFFFF;
+  margin-bottom: 1em;
+}
+
+.about_label{
+  text-align: left;
+  margin-left: 5em;
+  border: 1em;
+  border-color: #FFFFFF;
+  margin-top: 2em;
+  display: inline-block;
+}
+
+.course_label{
+  text-align: left;
+  margin-top: 2em;
+  display: inline-block;
+}
+
+.content_3 h3{
+  margin-bottom: 1em;
+}
+
+.content_4 h3{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.project_label{
+  text-align: left;
+  margin-left: 5em;
+}
+
+.resume_label{
+  text-align: left;
+  margin-left: 5em;
+  border: 1em;
+  border-color: #FFFFFF;
+  margin-top: 6em;
+  display: inline-block;
+  color: #FFFFFF;
+}
+
+.resume_container{
+  padding-top: 2em;
+  height: 90vh;
+  width: 45vw;
+}
+
+#contact_page{
+  background-color: #037057;
+  height: 100vh;
+  width: 100vw;
+  color: #FFFFFF;
+    background-image: -webkit-gradient(
+      linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+      to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
+    );
+    background-image: -moz-linear-gradient(
+      rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%
+    );
+}
+
+.contact_info{
+  text-align: center;
+}
+
+.animate_onHover:hover{
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+
+.container-fluid{
+    height: 100%;
+}
+
+.row{
+    clear: both;
+}
+
+.project_container{
+    height: 100%;
+}
+
+.proj_label_row{
+    height: 10%;
+    margin-bottom: 20px;
+}
+
+.proj_row{
+    height: 90%;
+    text-align: center;
 }
