@@ -4,7 +4,7 @@ body{
 }
 
 #home{
-    background-image: url(/images/black-background.jpg); 
+    background-image: url(/images/black-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -54,7 +54,7 @@ body{
     background-image: -moz-linear-gradient(
       rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%
     );
-    
+
 }
 
 #resume_page{
@@ -137,7 +137,7 @@ body{
 .resume{
     margin-top: 100%;
     align-content: center;
-    
+
 
 }
 #about_me label{
@@ -249,7 +249,7 @@ body{
 }
 
 .class_row{
-    
+
 }
 
 .exp_row{
