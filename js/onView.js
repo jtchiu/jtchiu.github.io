@@ -33,6 +33,17 @@ $(document).ready(function(){
 
 $(document).ready(function(){
  
+  $('#work_exp_ani').css('opacity', '0');
+ 
+  $('#work_exp_ani').waypoint(function() {
+      $('#work_exp_ani').addClass('bounceInLeft');
+      $('#work_exp_ani').css('opacity', '100');
+  }, { offset: '80%' });
+ 
+});
+
+$(document).ready(function(){
+ 
   $('#proj_ani').css('opacity', '0');
  
   $('#proj_ani').waypoint(function() {

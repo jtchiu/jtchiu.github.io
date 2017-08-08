@@ -19,6 +19,7 @@ body{
 
 #about_me{
     background-color: #32124f;
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -38,15 +39,16 @@ body{
 }
 
 #project_page{
-  background-color: #34495e;
+    background-color: #34495e;
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  height: auto;
-  width: auto;
+    height: auto;
+    width: auto;
     background-image: -webkit-gradient(
       linear, left top, left bottom, from(rgba(50,50,50,0.8)),
       to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
@@ -58,15 +60,16 @@ body{
 }
 
 #resume_page{
-  background-color: #560f16;
+    background-color: #560f16;
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  height: 125vh;
-  width: 100vw;
+    height: 125vh;
+    width: 100vw;
     background-image: -webkit-gradient(
       linear, left top, left bottom, from(rgba(50,50,50,0.8)),
       to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
@@ -168,17 +171,30 @@ body{
 
 .course_label{
   text-align: left;
-  margin-top: 2em;
+    margin-bottom: 2em;
   display: inline-block;
 }
 
-.content_3 h3{
-  margin-bottom: 1em;
+.experience_label{
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: inline-block;
 }
 
-.content_4 h3{
+.work_experience_label{
   margin-top: 2em;
-  margin-bottom: 1em;
+  text-align: left;
+  margin-bottom: 2em;
+  display: inline-block;
+}
+
+.content_3{
+    
+}
+
+.content_4{
+  margin-bottom: 2em;
 }
 
 .project_label{
@@ -200,10 +216,13 @@ body{
   padding-top: 2em;
   height: 90vh;
   width: 45vw;
+  text-align: center;
+  color: white;
 }
 
 #contact_page{
   background-color: #037057;
+  background-color: black;
   height: 100vh;
   width: 100vw;
   color: #FFFFFF;
@@ -254,4 +273,23 @@ body{
 
 .exp_row{
     margin-bottom: 50px;
+}
+
+.employer{
+    text-align: center;
+}
+
+.work_position{
+    float: left;
+    display: inline-block;
+}
+
+.work_duration{
+    float: right;
+    display: inline-block;
+}
+
+.work_description{
+    display: flex;
+    margin-top: 3em;
 }
