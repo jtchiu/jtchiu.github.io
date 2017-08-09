@@ -240,6 +240,7 @@ body{
 }
 
 .contact_info{
+  margin-top: 3em;
   text-align: center;
 }
 
@@ -297,3 +298,22 @@ body{
     display: flex;
     margin-top: 3em;
 }
+
+.socialMedia{    
+    margin-top: 3em;
+    text-align: center;
+}
+
+.fa{
+    margin-left: .2em;
+    margin-right: .2em;
+}
+
+.email{
+    display: inline-block;
+}
+
+.phone{
+    display: inline-block;
+}
+

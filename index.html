@@ -31,7 +31,7 @@
                 <li class=animate_onHover><a href="#home">Home</a></li>
                 <li class=animate_onHover><a href="#about_me">About Me</a></li>
                 <li class=animate_onHover><a href="#project_page">Projects</a></li>
-                <li class=animate_onHover><a href="#resume_page">Portfolio</a></li>
+<!--                <li class=animate_onHover><a href="#resume_page">Portfolio</a></li>-->
                 <li class=animate_onHover><a href="#contact_page">Contact Me</a></li>
                 <li class=animate_onHover><a href="resume.pdf">Resume</a></li>
               </ul>
@@ -369,6 +369,7 @@
         
     </section>
 
+<!--
     <section id="resume_page">
       <div class="container-fluid">
         <div id="res_ani" class="resume_label animated">
@@ -376,10 +377,11 @@
         </div>
           <div class="container-fluid resume_container">
             <p>- Work in progress -</p>
-            <!--<script>PDFObject.embed("resume.pdf", ".resume_container");</script>/-->
+            <script>PDFObject.embed("resume.pdf", ".resume_container");</script>/
           </div>
       </div>
     </section>
+-->
 
       <section id="contact_page">
         <div class="container-fluid">
@@ -387,13 +389,22 @@
             <h2>Contact Me</h2>
           </div>
           <div class=contact_info>
-            <h3>justin.chiu@stonybrook.edu</h3>
-              <h3>(516) 312-1066</h3>
+              <i class="fa fa-envelope fa-2x animate_onHover" aria-hidden="true"></i>
+              <div class="email">
+                <h3>justin.chiu@stonybrook.edu</h3>
+              </div>
+                <br>
+                    <i class="fa fa-mobile fa-2x animate_onHover" aria-hidden="true"></i>
+                      <div class="phone">
+                        <h3>(516) 312-1066</h3>
+                      </div>
           </div>
-            <div class="container socialMedia">
-              <a href="https://github.com/jtchiu"><p class="navbar-text img-responsive github"><i class="fa fa-github fa-4x animate_onHover" aria-hidden="true"></i></p></a>
-                <a href="https://www.linkedin.com/in/justin-chiu-713497128"><p class="navbar-text img-responsive linkedin"><i class="fa fa-linkedin-square fa-4x animate_onHover" aria-hidden="true"></i></p></a>
-                  <a href="https://www.instagram.com/jt_chiu/"><p class="navbar-text img-responsive instagram"><i class="fa fa-instagram fa-4x animate_onHover" aria-hidden="true"></i></p></a>
+            <div class="container">
+              <div class="row socialMedia">
+                <a href="https://github.com/jtchiu"><i class="fa fa-github fa-4x animate_onHover" aria-hidden="true"></i></a>
+                  <a href="https://www.linkedin.com/in/justin-chiu-713497128"><i class="fa fa-linkedin-square fa-4x animate_onHover" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/jt_chiu/"><i class="fa fa-instagram fa-4x animate_onHover" aria-hidden="true"></i></a>    
+              </div>
             </div>
         </div>
       </section>
