@@ -92,6 +92,20 @@ body{
 
 .projects{
     text-align: center;
+    margin-top: 3.5em;
+    margin-bottom: 2em;
+}
+
+.first_proj_row{
+    margin-bottom: 2em;
+}
+
+.second_proj_row{
+    margin-bottom: 2em;
+}
+
+.third_proj_row{
+    margin-bottom: 2em;
 }
 
 .navbar{
@@ -198,7 +212,7 @@ body{
 }
 
 .content_4{
-  margin-bottom: 2em;
+  margin-bottom: 6em;
 }
 
 .project_label{
@@ -276,12 +290,9 @@ body{
 
 }
 
-.exp_row{
-    margin-bottom: 50px;
-}
-
 .employer{
     text-align: center;
+    margin-bottom: 1.5em;
 }
 
 .work_position{
@@ -317,3 +328,25 @@ body{
     display: inline-block;
 }
 
+.project_modal{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.project_description{
+    color: white;
+    margin-bottom: 1em;
+}
+
+.project_buttons{
+    margin-bottom: 1em;
+}
+
+.project_buttons .btn{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.work_title{
+    margin-bottom: 4.5em;
+}

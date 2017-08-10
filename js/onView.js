@@ -1,3 +1,4 @@
+// bounceInLeft
 $(document).ready(function(){
  
   $('#onView').css('opacity', '0');
@@ -45,10 +46,9 @@ $(document).ready(function(){
 $(document).ready(function(){
  
   $('#proj_ani').css('opacity', '0');
- 
   $('#proj_ani').waypoint(function() {
-      $('#proj_ani').addClass('bounceInLeft');
-      $('#proj_ani').css('opacity', '100');
+    $('#proj_ani').addClass('bounceInLeft');
+    $('#proj_ani').css('opacity', '100');
   }, { offset: '80%' });
  
 });
@@ -56,10 +56,9 @@ $(document).ready(function(){
 $(document).ready(function(){
  
   $('#res_ani').css('opacity', '0');
- 
   $('#res_ani').waypoint(function() {
-      $('#res_ani').addClass('bounceInLeft');
-      $('#res_ani').css('opacity', '100');
+    $('#res_ani').addClass('bounceInLeft');
+    $('#res_ani').css('opacity', '100');
   }, { offset: '80%' });
  
 });
@@ -67,10 +66,35 @@ $(document).ready(function(){
 $(document).ready(function(){
  
   $('#contact_ani').css('opacity', '0');
- 
   $('#contact_ani').waypoint(function() {
-      $('#contact_ani').addClass('bounceInLeft');
-      $('#contact_ani').css('opacity', '100');
+    $('#contact_ani').addClass('bounceInLeft');
+    $('#contact_ani').css('opacity', '100');
   }, { offset: '80%' });
  
+});
+
+// fadeInUp
+
+$(document).ready(function(){
+  $('.kemp').css('opacity', '0');
+  $('.kemp').waypoint(function() {
+    $('.kemp').addClass('fadeInUp');
+    $('.kemp').css('opacity', '100');
+  }, { offset: '80%' });
+});
+
+$(document).ready(function(){
+  $('.courses').css('opacity', '0');
+  $('.courses').waypoint(function() {
+    $('.courses').addClass('fadeInUp');
+    $('.courses').css('opacity', '100');
+  }, { offset: '80%' });
+});
+
+$(document).ready(function(){
+  $('.programming_exp').css('opacity', '0');
+  $('.programming_exp').waypoint(function() {
+    $('.programming_exp').addClass('fadeInUp');
+    $('.programming_exp').css('opacity', '100');
+  }, { offset: '80%' });
 });
