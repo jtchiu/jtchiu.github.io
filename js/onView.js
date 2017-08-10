@@ -98,3 +98,29 @@ $(document).ready(function(){
     $('.programming_exp').css('opacity', '100');
   }, { offset: '80%' });
 });
+
+//fadeIn
+
+$(document).ready(function(){
+  $('.first_proj_row').css('opacity', '0');
+  $('.first_proj_row').waypoint(function() {
+    $('.first_proj_row').addClass('fadeIn');
+    $('.first_proj_row').css('opacity', '100');
+  }, { offset: '80%' });
+});
+
+$(document).ready(function(){
+  $('.second_proj_row').css('opacity', '0');
+  $('.second_proj_row').waypoint(function() {
+    $('.second_proj_row').addClass('fadeIn');
+    $('.second_proj_row').css('opacity', '100');
+  }, { offset: '80%' });
+});
+
+$(document).ready(function(){
+  $('.third_proj_row').css('opacity', '0');
+  $('.third_proj_row').waypoint(function() {
+    $('.third_proj_row').addClass('fadeIn');
+    $('.third_proj_row').css('opacity', '100');
+  }, { offset: '80%' });
+});
