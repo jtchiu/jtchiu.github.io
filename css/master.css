@@ -189,7 +189,7 @@ body{
 
 .course_label{
   text-align: left;
-    margin-bottom: 2em;
+  margin-bottom: 2em;
   display: inline-block;
 }
 
@@ -212,26 +212,6 @@ body{
       text-align: center;
       border: 1em;
       margin-top: 2em;
-      display: inline-block;
-    }
-
-    .course_label{
-      text-align: center;
-      margin-bottom: 2em;
-      display: inline-block;
-    }
-
-    .experience_label{
-      text-align: center;
-      margin-top: 2em;
-      margin-bottom: 2em;
-      display: inline-block;
-    }
-
-    .work_experience_label{
-      margin-top: 2em;
-      text-align: center;
-      margin-bottom: 2em;
       display: inline-block;
     }
 }
