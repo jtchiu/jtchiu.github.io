@@ -99,6 +99,14 @@ $(document).ready(function(){
   }, { offset: '80%' });
 });
 
+$(document).ready(function(){
+  $('.contact_content').css('opacity', '0');
+  $('.contact_content').waypoint(function() {
+    $('.contact_content').addClass('fadeInUp');
+    $('.contact_content').css('opacity', '100');
+  }, { offset: '80%' });
+});
+
 //fadeIn
 
 $(document).ready(function(){
