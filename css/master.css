@@ -358,3 +358,19 @@ body{
 .work_title{
     margin-bottom: 4.5em;
 }
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-indicators{
+    color: #232323;
+}
+
+.glyphicon-chevron-left{
+    color: #232323;
+}
+
+.glyphicon-chevron-right{
+    color: #232323;
+}
