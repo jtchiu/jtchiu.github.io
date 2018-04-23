@@ -6,10 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Justin Chiu</title>
-  <!-- Bootstrap -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Animate.css -->
   <link rel="stylesheet" href="css/animate.css">
+  <!-- My style sheets -->
   <link rel="stylesheet" type="text/css" href="css/master.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -21,37 +26,82 @@
 </head>
 
 <body>
-  <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <button class="navbar-toggle" data-toggle="collapse" data-target=".collapsedNav">
-          <span class="glyphicon glyphicon-unchecked"></span>
-        </button>
-          <a class="navbar-brand"><div class="myName animate_onHover">Justin Chiu</div></a>
-            <div class = "collapse navbar-collapse collapsedNav" id="main_navbar">
-              <ul class="nav navbar-nav navbar-right">
-                <li class=animate_onHover><a href="#home">Home</a></li>
-                <li class=animate_onHover><a href="#about_me">About Me</a></li>
-                <li class=animate_onHover><a href="#project_page">Projects</a></li>
-<!--                <li class=animate_onHover><a href="#resume_page">Portfolio</a></li>-->
-                <li class=animate_onHover><a href="#contact_page">Contact Me</a></li>
-                <li class=animate_onHover><a href="resume.pdf">Resume</a></li>
-              </ul>
-            </div>
-    </div>
-</div>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+          <!-- <button class="navbar-toggle" data-toggle="collapse" data-target=".collapsedNav">
+            <span class="glyphicon glyphicon-unchecked"></span>
+          </button>
+            <a class="navbar-brand"><div class="myName animate_onHover">Justin Chiu</div></a> -->
+          <!-- Navbar brand -->
+<!--          <div class="d-flex w-100">-->
+<!--            <a class="navbar-brand mr-0"><div class="myName animate_onHover">Justin Chiu</div></a>-->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapsedNav" aria-controls="collapsedNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+<!--          </div>-->
+<!--           <a class="navbar-brand"><div class="myName animate_onHover">Justin Chiu</div></a> -->
 
+          <!-- Collapse button -->
+          
+              <div class = "navbar-collapse collapse collapsedNav justify-content-center" id="main_navbar">
+                <ul class="navbar-nav mx-auto smooth-scroll">
+                  <li class=nav-item><a class="nav-link" href="#home">Home</a></li>
+                  <li class=nav-item><a class="nav-link" href="#about_me">About Me</a></li>
+                  <li class=nav-item><a class="nav-link" href="#project_page">Projects</a></li>
+  <!--                <li class=animate_onHover><a href="#resume_page">Portfolio</a></li>-->
+                  <li class=nav-item><a class="nav-link" href="#contact_page">Contact Me</a></li>
+                  <li class=nav-item><a class="nav-link" href="#contact_page">CSE 300</a></li>
+<!--                  <li class=nav-item><a class="nav-link" href="resume.pdf">Resume</a></li>-->
+                </ul>
+              </div>
+      </div>
+  </nav>
+    
+    <!--Mask-->
+    
+    <div id="intro home" class="view">
+<section id="home">
+        <div class="mask rgba-black-light">
+          <div class="container-fluid d-flex align-items-center justify-content-center h-100">
 
-  <section id="home">
-    <div class="container-fluid">
-          <div class="home_info">
-            <div class="row">
-                <span class="type_intro"></span><span class="type_intro2"></span>
-            </div>
+              <div class="row d-flex justify-content-center text-center">
+
+                  <div class="col-md-10">
+
+                      <!-- Heading -->
+                      <h2 class="display-4 font-weight-bold white-text pt-5 mb-2"><span class="type_intro"></span></h2>
+
+                      <!-- Divider -->
+                      <hr class="hr-light animated fadeInUp delay-1" id="intro_ani">
+
+                      <!-- Description -->
+                      <h4 class="white-text my-4 animated fadeInUp delay-1" id="intro_ani">Aim for the sky, because even if you miss, you'll still be among the stars.</h4>
+                      <button type="button" class="btn btn-outline-white animated fadeInUp delay-1" id="intro_ani" href="resume.pdf">Resume<i class="fa fa-file-pdf-o ml-2"></i></button>
+
+                  </div>
+
+              </div>
+
           </div>
-    </div>
-  </section>
+          <!-- <section id="home">
+            <div class="container-fluid">
+                  <div class="home_info">
+                    <div class="row">
+                        <span class="type_intro"></span><span class="type_intro2"></span>
+                    </div>
+                  </div>
+            </div>
+          </section> -->
+      </div>
+    </section>
 
-  <section id="about_me">
+    </div>
+    <!--/.Mask-->
+  </header>
+<main>
+  <section id="about_me" class="">
     <div class="container-fluid">
       <div class="about_info">
           <div class="row">
@@ -153,22 +203,47 @@
               <h2>Programming Experience</h2>
             </div>
               <ul class="programming_exp animated">
-                <li><p>Java - 2 years<p></li>
-                  <li><p>Python - 1 year<p></li>
-                    <li><p>HTML/CSS/Javascript (Front-end) - 6 months<p></li>
-                      <li><p>Javascript (Node.js) - 4 months<p></li>
-              </ul>
+                
+<!--
+  <div class="container">
+       Skill Bars 
+      <div class="progress skill-bar m-3">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">HTML<i class="val">100%</i></span>
           </div>
-        </div>
-           
-          
-        </div>
       </div>
-  </section>
 
+      <div class="progress skill-bar m-3">
+          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" >
+              <span class="skill">CSS<i class="val">90%</i></span>
+          </div>
+      </div>
+
+      <div class="progress skill-bar m-3">
+          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">JavaScript<i class="val">75%</i></span>
+          </div>
+      </div>  
+
+      <div class="progress skill-bar m-3">
+          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Photoshop<i class="val">55%</i></span>
+          </div>
+      </div>  
+    </div> 
+-->
+                <li><p>Python - 2 years</p></li>
+                <li><p>Javascript (Node.js) - 1 year</p></li>
+                <li><p>Java - 2 years</p></li>
+                <li><p>HTML/CSS/Javascript (Front-end) - 2 years</p></li>
+              </ul>
+    </div>
+    </div> 
+    </div>
+    </div>
+  </section>
     <section id="project_page">
       <div class="container-fluid project_container">
-        <div class="project_info">
             <div class="row proj_label_row">
               <div id="proj_ani" class="project_label animated">
                 <h2>Projects</h2>
@@ -179,7 +254,7 @@
                 <div class="container projects">
                     <div class="row first_proj_row animated">
                       <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail project_modal">
+                    <div class="thumbnail project_modal p-3">
                       <div class="caption">
                           <div class="project_description">
                             <h3>Course Site Generator</h3>
@@ -192,7 +267,7 @@
                     </div>
                   </div>
                     <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail project_modal">
+                    <div class="thumbnail project_modal p-3">
                       <div class="caption">
                           <div class="project_description">
                             <h3>Vision 2.0 KEMP Bot</h3>
@@ -205,7 +280,7 @@
                     </div>
                   </div>    
                       <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail project_modal">
+                    <div class="thumbnail project_modal p-3">
                       <div class="caption">
                           <div class="project_description">
                             <h3>Food Beyond</h3>
@@ -223,7 +298,7 @@
                     
                     <div class="row second_proj_row animated">
                       <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail project_modal">
+                    <div class="thumbnail project_modal p-3">
                       <div class="caption">
                           <div class="project_description">
                             <h3>PCFG Parser</h3>
@@ -236,7 +311,7 @@
                     </div>
                   </div>
                     <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail project_modal">
+                    <div class="thumbnail project_modal p-3">
                       <div class="caption">
                         <div class="project_description">
                           <h3>Feature-based Extraction Summarizer</h3>
@@ -249,7 +324,7 @@
                     </div>
                   </div>
                     <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail project_modal">
+                    <div class="thumbnail project_modal p-3">
                       <div class="caption">
                           <div class="project_description">
                               <h3>Part of Speech Tagger</h3>
@@ -267,7 +342,7 @@
                     
                     <div class="row third_proj_row animated">
                       <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail project_modal">
+                    <div class="thumbnail project_modal p-3">
                       <div class="caption">
                           <div class="project_description">
                             <h3>City Survival</h3>
@@ -280,7 +355,7 @@
                     </div>
                   </div>
                     <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail project_modal">
+                    <div class="thumbnail project_modal p-3">
                       <div class="caption">
                           <div class="project_description">
                             <h3>Bombsweeper</h3>
@@ -293,7 +368,7 @@
                     </div>
                   </div>
                     <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail project_modal">
+                    <div class="thumbnail project_modal p-3">
                       <div class="caption">
                           <div class="project_description">
                             <h3>Social Media Improvement Program</h3>
@@ -312,7 +387,6 @@
                 </div>
             </div>
           </div>
-        </div>
         
         <!-- Course Site Generator -->
         <div class="modal fade" id="csgModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -629,7 +703,8 @@
       </div>
     </section>
 -->
-
+</main>
+  <footer>
       <section id="contact_page">
         <div class="container-fluid">
           <div id="contact_ani" class="resume_label animated">
@@ -648,7 +723,7 @@
                       </div>
           </div>
             <div class="container">
-              <div class="row socialMedia">
+              <div class="row socialMedia justify-content-center">
                 <a target="_blank" href="https://github.com/jtchiu"><i class="fa fa-github fa-4x animate_onHover" aria-hidden="true"></i></a>
                   <a target="_blank" href="https://www.linkedin.com/in/justin-chiu-713497128"><i class="fa fa-linkedin-square fa-4x animate_onHover" aria-hidden="true"></i></a>
                     <a target="_blank" href="https://www.instagram.com/jt_chiu/"><i class="fa fa-instagram fa-4x animate_onHover" aria-hidden="true"></i></a>    
@@ -657,13 +732,22 @@
           </div>
         </div>
       </section>
-
+    </footer>
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script src="js/scroll.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/progress.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/typing_intro.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/onView.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
         </body>
     
 

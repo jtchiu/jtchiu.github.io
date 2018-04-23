@@ -132,3 +132,14 @@ $(document).ready(function(){
     $('.third_proj_row').css('opacity', '100');
   }, { offset: '80%' });
 });
+
+$(document).ready(function(){
+  $('.progress-bar').css('opacity', '0');
+  $('.progress-bar').waypoint(function() {
+    $(".progress-bar").animate({
+        width: "70%"
+    }, 2500);
+  }, { offset: '80%' });
+});
+
+
