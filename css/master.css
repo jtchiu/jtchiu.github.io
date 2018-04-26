@@ -473,3 +473,7 @@ header,
 #proj_ani{
   margin-top: 8em;
 }
+
+.resume_btn a {
+  color: black;
+}
