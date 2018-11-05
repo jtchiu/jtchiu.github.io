@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Justin Chiu</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- My style sheets -->
+  <link rel="stylesheet" type="text/css" href="css/master.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/pdfobject.js"></script>
+  <script src="js/load.js"></script>
+  <script src="js/mobile.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+          <!-- <button class="navbar-toggle" data-toggle="collapse" data-target=".collapsedNav">
+            <span class="glyphicon glyphicon-unchecked"></span>
+          </button>
+            <a class="navbar-brand"><div class="myName animate_onHover">Justin Chiu</div></a> -->
+          <!-- Navbar brand -->
+<!--          <div class="d-flex w-100">-->
+<!--            <a class="navbar-brand mr-0"><div class="myName animate_onHover">Justin Chiu</div></a>-->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapsedNav" aria-controls="collapsedNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+<!--          </div>-->
+<!--           <a class="navbar-brand"><div class="myName animate_onHover">Justin Chiu</div></a> -->
+
+          <!-- Collapse button -->
+          
+              <div class = "navbar-collapse collapse collapsedNav justify-content-center" id="main_navbar">
+                <ul class="navbar-nav mx-auto smooth-scroll">
+                  <li class=nav-item><a class="nav-link" href="#home">Home</a></li>
+                  <li class=nav-item><a class="nav-link" href="#about_me">About Me</a></li>
+                  <li class=nav-item><a class="nav-link" href="#project_page">Projects</a></li>
+  <!--                <li class=animate_onHover><a href="#resume_page">Portfolio</a></li>-->
+                  <li class=nav-item><a class="nav-link" href="#contact_page">Contact Me</a></li>
+<!--                  <li class=nav-item><a class="nav-link" href="resume.pdf">Resume</a></li>-->
+                </ul>
+              </div>
+      </div>
+  </nav>
+    
+    <!--Mask-->
+    
+    <div id="intro home" class="view">
+<section id="home">
+        <div class="mask rgba-black-light">
+          <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+
+              <div class="row d-flex justify-content-center text-center">
+
+                  <div class="col-md-10">
+
+                      <!-- Heading -->
+                      <h2 class="display-4 font-weight-bold white-text pt-5 mb-2"><span class="type_intro"></span></h2>
+
+                      <!-- Divider -->
+                      <hr class="hr-light animated fadeInUp delay-1" id="intro_ani">
+
+                      <!-- Description -->
+                      <a class="btn btn-outline-white animated fadeInUp delay-1 resume_btn" id="intro_ani" href="resume.pdf">Resume<i class="fa fa-file-pdf-o ml-2"></i></a>
+
+                  </div>
+
+              </div>
+
+          </div>
+          <!-- <section id="home">
+            <div class="container-fluid">
+                  <div class="home_info">
+                    <div class="row">
+                        <span class="type_intro"></span><span class="type_intro2"></span>
+                    </div>
+                  </div>
+            </div>
+          </section> -->
+      </div>
+    </section>
+
+    </div>
+    <!--/.Mask-->
+  </header>
+<main>
+  <section id="about_me" class="">
+    <div class="container-fluid">
+      <div class="about_info">
+          <div class="row">
+            <div id="onView" class="about_label animated">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row exp_row">
+              <div class="container content_5">
+                <div id="work_exp_ani" class="work_experience_label animated">
+                  <h2>Work Experience</h2>
+                </div>
+                  <div>
+                    <div class="kemp animated">
+                        <div class="employer">
+                          <h4>KEMP Technologies</h4>
+                        </div>
+                          <div class="work_title">
+                            <div class="work_position" id="jobTitle">
+                                <p>Research & Development Intern </p>
+                              </div>
+                                <div class="work_duration">
+                                  <p>April 2017 - August 2017</p>
+                                </div>
+                            </div>
+                              <div class="work_description">
+                                <ul class="work_content">
+                                  <li><p>Worked under Jon Malek, Systems Architect, along with a team of senior software developers, system integrators, and quality assurance engineers on the development of the KEMP 360 Vision 2.0 Slack bot.</p></li>
+                                    <li><p>Moved hard-coded communication platform to an advanced NLP platform by integrating NLP to KEMP Bot using Microsoft Luis which calculates the score for each possible user intent and outputs the top scoring intent.</p></li>
+                                      <li><p>Used Chart.js to graph user database queries within a specfic time range.  The bot recognizes what information the user provided and sends an image of the graph to the user.</p></li>
+                                  </ul>      
+                              </div>
+                      </div>
+                  </div>
+              </div>
+        </div> 
+        
+        <div class="row class_row">
+              <div class="container content_3">
+                <div id="course_ani" class="course_label animated">
+                    <h2>Courses</h2>
+                  </div>
+                    <div class="courses animated">
+                        <ul class="course_list">
+                          <li><p>CSE 114 - Object Oriented Programming<p></li>
+                            <li><p>CSE 214 - Data Structures and Algorithms<p></li>
+                              <li><p>CSE 215 - Discrete Mathematematics<p></li>
+                                <li><p>CSE 219 - Computer Science III<p></li>
+                                  <li><p>CSE 220 - System Fundamentals I<p></li>
+                                    <li><p>CSE 390 - Natural Language Processing<p></li>
+                                      <li><p>MAT 132 - Calculus II<p></li>
+                                        <li><p>AMS 210 - Applied Linear Algebra<p></li>
+                                          <li><p>AMS 301 - Finite Mathematical Structures<p></li>
+                                            <li><p>AMS 310 - Probability and Statistics for Science and Engineering<p></li>
+                        </ul>
+                  </div>
+              </div>
+          </div>
+        <div class="row exp_row">
+          <div class="container content_4">
+            <div id="exp_ani" class="experience_label animated">
+              <h2>Programming Experience</h2>
+            </div>
+              <ul class="programming_exp animated">
+                
+<!--
+  <div class="container">
+       Skill Bars 
+      <div class="progress skill-bar m-3">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">HTML<i class="val">100%</i></span>
+          </div>
+      </div>
+
+      <div class="progress skill-bar m-3">
+          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" >
+              <span class="skill">CSS<i class="val">90%</i></span>
+          </div>
+      </div>
+
+      <div class="progress skill-bar m-3">
+          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">JavaScript<i class="val">75%</i></span>
+          </div>
+      </div>  
+
+      <div class="progress skill-bar m-3">
+          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Photoshop<i class="val">55%</i></span>
+          </div>
+      </div>  
+    </div> 
+-->
+                <li><p>Python - 2 years</p></li>
+                <li><p>Javascript (Node.js) - 1 year</p></li>
+                <li><p>Java - 2 years</p></li>
+                <li><p>HTML/CSS/Javascript (Front-end) - 2 years</p></li>
+              </ul>
+    </div>
+    </div> 
+    </div>
+    </div>
+  </section>
+    <section id="project_page">
+      <div class="container-fluid project_container">
+            <div class="row proj_label_row">
+              <div id="proj_ani" class="project_label animated">
+                <h2>Projects</h2>
+              </div>
+            </div>
+            
+            <div class="row proj_row">
+                <div class="container projects">
+                    <div class="row first_proj_row animated">
+                      <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail project_modal p-3">
+                      <div class="caption">
+                          <div class="project_description">
+                            <h3>Course Site Generator</h3>
+                            <p>Java</p>
+                          </div>
+                            <div class="project_buttons">
+                              <h1><a target="_blank" href="https://bitbucket.org/JustinChiu219/final-project" class="btn btn-primary" role="button">Repository</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#csgModal">Learn More</a></h1>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail project_modal p-3">
+                      <div class="caption">
+                          <div class="project_description">
+                            <h3>Vision 2.0 KEMP Bot</h3>
+                            <p>Node.js</p>
+                          </div>
+                            <div class="project_buttons">
+                              <h1><a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#visionModal">Learn More</a></h1>
+                          </div>
+                      </div>
+                    </div>
+                  </div>    
+                      <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail project_modal p-3">
+                      <div class="caption">
+                          <div class="project_description">
+                            <h3>Food Beyond</h3>
+                            <p>Python, HTML, CSS, JavaScript</p>                          
+                          </div>
+                            <div class="project_buttons">
+                              <h1><a target="_blank" href="https://github.com/jtchiu/Hack-CEWIT" class="btn btn-primary" role="button">Repository</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#foodModal">Learn More</a></h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    </div>
+                    
+                  <!--- row 1 complete --->
+                    
+                    <div class="row second_proj_row animated">
+                      <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail project_modal p-3">
+                      <div class="caption">
+                          <div class="project_description">
+                            <h3>PCFG Parser</h3>
+                            <p>Python</p>
+                          </div>
+                            <div class="project_buttons">
+                              <h1><a target="_blank" href="https://github.com/jtchiu/NLP-PCFG-parsing" class="btn btn-primary" role="button">Repository</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#pcfgModal">Learn More</a></h1>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail project_modal p-3">
+                      <div class="caption">
+                        <div class="project_description">
+                          <h3>Feature-based Extraction Summarizer</h3>
+                          <p>Python</p>
+                        </div>
+                          <div class="project_buttons">
+                            <h1><a target="_blank" href="https://github.com/esamudio/extractive-summarizer" class="btn btn-primary" role="button">Repository</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#summarizeModal">Learn More</a></h1>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail project_modal p-3">
+                      <div class="caption">
+                          <div class="project_description">
+                              <h3>Part of Speech Tagger</h3>
+                              <p>Python</p>
+                          </div>
+                            <div class="project_buttons">
+                              <h1><a target="_blank" href="https://github.com/jtchiu/NLP-part-of-speech-tagging" class="btn btn-primary" role="button">Repository</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#taggerModal">Learn More</a></h1>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                    </div>
+                    
+                  <!--- row 2 complete --->
+                    
+                    <div class="row third_proj_row animated">
+                      <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail project_modal p-3">
+                      <div class="caption">
+                          <div class="project_description">
+                            <h3>City Survival</h3>
+                            <p>Java</p>
+                          </div>
+                            <div class="project_buttons">
+                              <h1><a target="_blank" href="https://github.com/jtchiu/City-Survival" class="btn btn-primary" role="button">Repository</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#cityModal">Learn More</a></h1>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail project_modal p-3">
+                      <div class="caption">
+                          <div class="project_description">
+                            <h3>Bombsweeper</h3>
+                            <p>MIPS Assembly</p>
+                          </div>
+                            <div class="project_buttons">
+                              <h1><a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#bombModal">Learn More</a> </h1>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail project_modal p-3">
+                      <div class="caption">
+                          <div class="project_description">
+                            <h3>Social Media Improvement Program</h3>
+                            <p>Java, HTML, CSS, JavaScript</p>
+                          </div>
+                            <div class="project_buttons">
+                              <h1><a target="_blank" href="https://github.com/victorzhen117/HackCooper2016" class="btn btn-primary" role="button">Repository</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#socialModal">Learn More</a></h1>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                    </div>
+                    
+                  <!--- row 3 complete --->
+                    
+                </div>
+            </div>
+          </div>
+        
+        <!-- Course Site Generator -->
+        <div class="modal fade" id="csgModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Course Site Generator</h4>
+              </div>
+              <div class="modal-body">
+                    <div id="csgCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#csgCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#csgCarousel" data-slide-to="1"></li>
+                            <li data-target="#csgCarousel" data-slide-to="2"></li>
+                            <li data-target="#csgCarousel" data-slide-to="3"></li>
+                            <li data-target="#csgCarousel" data-slide-to="4"></li>
+                          </ol>
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="images/csg/slide1.png" alt="First slide">
+                        </div>
+                        <div class="item">
+                          <img src="images/csg/slide2.png" alt="Second slide">
+                        </div>
+                        <div class="item">
+                          <img src="images/csg/slide3.png" alt="Third slide">
+                        </div>
+                        <div class="item">
+                          <img src="images/csg/slide4.png" alt="Fourth slide">
+                        </div>
+                        <div class="item">
+                          <img src="images/csg/slide5.png" alt="Fifth slide">
+                        </div>
+                      </div>
+                        <!-- Controls -->
+                          <a class="left carousel-control" href="#csgCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#csgCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                    </div>
+                  <br>
+                Course Site Generator is a JavaFX FXML desktop application that generates HTML/CSS/Javascript based on the specifications from the user.  This was the final project during my semester in Computer Science III.  The professor distributed a Software Requirements Specification and we had to design and implement all of the requirements specified.  This included a write up of the Software Design Description.  Both of these documents could be found in the repository.  
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Vision 2.0 KEMP Bot -->
+        <div class="modal fade" id="visionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Vision 2.0 KEMP Bot</h4>
+              </div>
+              <div class="modal-body">
+                Worked under Jon Malek, Systems Architect, along with a team of senior software developers, system integrators, and quality assurance engineers on the development of the KEMP 360 Vision 2.0 Slack bot.
+                  <br>
+                  <br>
+                Moved hard-coded communication platform to an advanced NLP platform by integrating NLP to KEMP Bot using Microsoft Luis which calculates the score for each possible user intent and outputs the top scoring intent.  The intents are trained using the LUIS API in order to achieve an accurate result.  The top scoring intent is called and the bot performs the intended action. 
+                  <br>
+                  <br>
+                Used Chart.js to graph user database queries within a specfic time range.  For this project, we used InfluxDB for storing customer data.  A simple database call outputs the requested JSON data which is parsed and sent to Chart.js to render and save a temporary image of the graph that is sent to the Slack API as an attachment for the user.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Food Beyond Modal -->
+        <div class="modal fade" id="foodModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Food Beyond</h4>
+              </div>
+              <div class="modal-body">
+                <div id="fbCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#fbCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#fbCarousel" data-slide-to="1"></li>
+                            <li data-target="#fbCarousel" data-slide-to="2"></li>
+                          </ol>
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="images/foodBeyond/slide1.jpg" alt="First slide">
+                        </div>
+                        <div class="item">
+                          <img src="images/foodBeyond/slide2.jpg" alt="Second slide">
+                        </div>
+                        <div class="item">
+                          <img src="images/foodBeyond/slide3.jpg" alt="Third slide">
+                        </div>
+                      </div>
+                        <!-- Controls -->
+                          <a class="left carousel-control" href="#fbCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#fbCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                    </div>
+                  <br>
+                Organizes the user’s ingredients and lists recipes corresponding to the ingredients in the user’s inventory.
+                <br>
+                Using the Raspberry-Pi, SimpleCV, and UPC-database, we could scan items and update the user’s ingredients.
+                I Designed and implemented the front-end of the project using HTML, CSS, Bootstrap, Javascript, and jQuery and
+                utilized the Food2Fork API.  I also handled the front-end using Python(flask), making the website dynamic.
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PCFG Parser Modal -->
+        <div class="modal fade" id="pcfgModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">PCFG Parser</h4>
+              </div>
+              <div class="modal-body">
+                Part 1:
+                  <br>
+                  <br>
+                PCFG Induction
+                  <br>
+                  <br>
+                Run: python3 pcfg_induction.py
+                  <br>
+                  <br>
+                Reads from the training data file, 'train.trees'. Writes to several files:
+                  <br>
+                  <br>
+                unary_prob.txt Unary rules involving lexical items. For example, they are in the format, VB	List	0.01256281407035176. Total unary rules: 397 for train.trees
+                  <br>
+                  <br>
+                binary_prob.txt Binary rules involving POS or syntactic categories. For example, they are in the format, TOP	S_VP	PUNC 0.2049335863377609. Total binary rules: 393 for train.trees
+                  <br>
+                  <br>
+                top_unary.txt Lists the top 10 most frequent unary rules. Output for train.trees: ('PUNC', '.')	383 ('TO', 'to')	268 ('IN', 'from') 243 ('NNS', 'flights')	169 ('PUNC', '?')	144 ('DT', 'the')	137 ('VB', 'Show')	94 ('NP_PRP', 'me')	90 ('WDT', 'What')	85 ('NN', 'flight')	81
+                  <br>
+                  <br>
+                top_binary.txt Lists the top 10 most frequent binary rules. Output for train.trees: ('PP', ('IN', 'NP_NNP'))	263 ('PP', ('IN', 'NP'))	222 ('PP', ('TO', 'NP_NNP'))	175 ('NP', ('NNP', 'NNP'))	151 ('TOP', ('SBARQ', 'PUNC'))	119 ('TOP', ('FRAG_NP', 'PUNC')) 116 ('TOP', ('S_VP', 'PUNC'))	108 ("S_VP'", ('VB', 'NP_PRP'))	84 ('S_VP', ("S_VP'", 'NP'))	81 ('NP', ('DT', 'NN'))	79
+                  <br>
+                  <br>
+                I used Laplace smoothing for unary rules and MLE probabilities for binary rules.
+                  <br>
+                  <br>
+                Part 2:
+                  <br>
+                  <br>
+                Run: python3 cky_parser.py test.txt
+                  <br>
+                  <br>
+                This program will read from 'unary_prob.txt' and 'binary_prob.txt' and build the data structures needed for cky parse. After reading from file, The program will read each sentence from 'test.txt' and cky parse each sentence, building the highest probability tree used by evalb.py.
+                  <br>
+                  <br>
+                For part this part of the assignment, I was unable to construct a proper tree with my backpointers. The output of the cky parse was a dictionary of tuples that contained triples as a value. For example, backpointers looked like {(0, 2, 'NP'): (1, 'DT', 'NN'), (0, 2, "NP'"): (1, 'DT', 'NN'), (5, 7, 'NP'): (6, 'CD', 'RB'), (5, 7, "NP'"): (6, 'CD', 'RB'),...} The way this was formated: back(begin, end, A) = (split, B, C) according to the algorithm on the pdf. The root node of the tree was back[(0, len(words), 'TOP')]. The way I am supposed to construct the tree is to start at the root node and create two subtrees, left and right. The left subtree is back[(0, len(words), 'S')] and the right subtree is back[(8, len(words), 'PUNC')]. However, I was could not get the entire tree built, so I printed out the backpoints for each sentence as well as the root node and its value.
+                  <br>
+                  <br>
+                Part 3:
+                  <br>
+                  <br>
+                A tree was needed to run evalb.py so I could compare my output.trees with test.trees. This part was not possible without a full tree.
+                  <br>
+                  <br>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+                <!-- Feature-based Extraction Summarizer Modal -->
+        <div class="modal fade" id="summarizeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Feature-based Extraction Summarizer</h4>
+              </div>
+              <div class="modal-body">
+                Refer to the repository and read the 'Project Report.pdf' for more information about the Feature-based Extraction Summarizer.
+                  <br>
+                  <br>
+                  <button type="button" class="btn btn-link"><a target="_blank" href="https://github.com/esamudio/extractive-summarizer"></a>Repository</button>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Part of Speech Tagger Modal -->
+        <div class="modal fade" id="taggerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Part of Speech Tagger</h4>
+              </div>
+              <div class="modal-body">
+                Refer to the README in the repository for more information about the Part of Speech Tagger.
+                  <br>
+                  <br>
+                  <button type="button" class="btn btn-link"><a target="_blank" href="https://github.com/jtchiu/NLP-part-of-speech-tagging"></a>Repository</button>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Bombsweeper Modal -->
+        <div class="modal fade" id="bombModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Bombsweeper</h4>
+              </div>
+              <div class="modal-body">
+                Using ANSI characters and a custom font, we displayed the game on a 10x10 Memory Mapped I/O board in MARS.
+                <br>
+                  <br>
+                  The focus of this project was to practice memory organization, read data from files, and use multidimensional arrays in MIPS.
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- City Survival -->
+        <div class="modal fade" id="cityModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">City Survival</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Social Media Improvement Program Modal -->
+        <div class="modal fade" id="socialModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Social Media Improvement Program</h4>
+              </div>
+              <div class="modal-body">
+                Incentivize reporting through a community policing platform that gives the user badges for consistently having good behavior and using our tribunal system.
+                  <br>
+                  <br>
+                  Used the Twitter API to query phrases in tweets and exported our user/Twitter data to a JSON file using Java.
+                  <br>
+                  <br>
+                  Designed the Tribunal using HTML and CSS and implemented the UI with Javascript by adding buttons and prompting the user with a pop-up message saying the process has been completed.
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </section>
+
+<!--
+    <section id="resume_page">
+      <div class="container-fluid">
+        <div id="res_ani" class="resume_label animated">
+          <h2>My Portfolio</h2>
+        </div>
+          <div class="container-fluid resume_container">
+            <p>- Work in progress -</p>
+            <script>PDFObject.embed("resume.pdf", ".resume_container");</script>/
+          </div>
+      </div>
+    </section>
+-->
+</main>
+  <footer>
+      <section id="contact_page">
+        <div class="container-fluid">
+          <div id="contact_ani" class="resume_label animated">
+            <h2>Contact Me</h2>
+          </div>
+            <div class="contact_content animated">
+              <div class=contact_info>
+              <i class="fa fa-envelope fa-2x animate_onHover" aria-hidden="true"></i>
+              <div class="email">
+                <h3>justin.chiu@stonybrook.edu</h3>
+              </div>
+                <br>
+                    <i class="fa fa-mobile fa-2x animate_onHover" aria-hidden="true"></i>
+                      <div class="phone">
+                        <h3>(516) 312-1066</h3>
+                      </div>
+          </div>
+            <div class="container">
+              <div class="row socialMedia justify-content-center">
+                <a target="_blank" href="https://github.com/jtchiu"><i class="fa fa-github fa-4x animate_onHover" aria-hidden="true"></i></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/justin-chiu-713497128"><i class="fa fa-linkedin-square fa-4x animate_onHover" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/jt_chiu/"><i class="fa fa-instagram fa-4x animate_onHover" aria-hidden="true"></i></a>    
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/typing_intro.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/onView.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+        </body>
+    
+
+    </html>

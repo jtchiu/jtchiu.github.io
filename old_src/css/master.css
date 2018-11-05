@@ -1,0 +1,480 @@
+main {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url(/images/background.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #24355C;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #24355C;
+  }
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
+
+#home{
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    overflow: hidden;
+}
+
+#about_me{
+    background-color: #32124f;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    background-image: -webkit-gradient(
+      linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+      to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
+    );
+    background-image: -moz-linear-gradient(
+      rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%
+    );
+    overflow: hidden;
+}
+
+#project_page{
+    background-color: #34495e;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    background-image: -webkit-gradient(
+      linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+      to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
+    );
+    background-image: -moz-linear-gradient(
+      rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%
+    );
+
+}
+
+#resume_page{
+    background-color: #560f16;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 125vh;
+    width: 100vw;
+    background-image: -webkit-gradient(
+      linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+      to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
+    );
+    background-image: -moz-linear-gradient(
+      rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%
+    );
+}
+
+.about_info{
+  color: #e8e8e8;
+  margin-top: 5em;
+}
+
+.project_info{
+  color: #e8e8e8;
+  margin-top: 5em;
+
+}
+
+.projects{
+    text-align: center;
+    margin-top: 3.5em;
+    margin-bottom: 2em;
+}
+
+.first_proj_row{
+    margin-bottom: 2em;
+}
+
+.second_proj_row{
+    margin-bottom: 2em;
+}
+
+.third_proj_row{
+    margin-bottom: 2em;
+}
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.75);
+  border-color: transparent;
+  color: #e8e8e8;
+}
+
+#main_navbar a{
+  color: #e8e8e8;
+}
+
+.fa{
+  color: #e8e8e8;
+}
+
+.fa:hover{
+  color: #3498db;
+}
+
+.myName{
+  color: #e8e8e8;
+}
+
+.navbar-default .navbar-nav > .active{
+  color: #3498db;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #3498db;
+  background-color: transparent;
+}
+
+.home_info{
+  color: #e8e8e8;
+/*  margin-top: 8.8em;*/
+  font-size: 2.8em;
+  position: relative;
+/*  display: inline-block;*/
+/*  vertical-align: middle;*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+
+.resume{
+    margin-top: 100%;
+    align-content: center;
+
+
+}
+#about_me label{
+  text-align: center;
+    margin: 1em;
+}
+
+.favorite_proj{
+  background-color: transparent;
+  color: #FFFFFF;
+  margin-bottom: 1em;
+}
+
+.why_comp_sci{
+  background-color: transparent;
+  color: #e8e8e8;
+  margin-bottom: 1em;
+}
+
+.about_label{
+  text-align: left;
+  margin-left: 5em;
+  border: 1em;
+  border-color: #FFFFFF;
+  margin-top: 2em;
+  display: inline-block;
+}
+
+.course_label{
+  text-align: left;
+  margin-bottom: 2em;
+  display: inline-block;
+}
+
+.experience_label{
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: inline-block;
+}
+
+.work_experience_label{
+  margin-top: 2em;
+  text-align: left;
+  margin-bottom: 2em;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .about_label{
+      text-align: center;
+      border: 1em;
+      margin-top: 2em;
+      display: inline-block;
+    }
+}
+
+.content_3{
+    
+}
+
+.content_4{
+  margin-bottom: 6em;
+}
+
+.project_label{
+  text-align: left;
+  margin-left: 5em;
+  color: #e8e8e8;
+
+}
+
+.resume_label{
+  text-align: left;
+  margin-left: 5em;
+  border: 1em;
+  margin-top: 6em;
+  display: inline-block;
+  color: #FFFFFF;
+}
+
+.resume_container{
+  padding-top: 2em;
+  height: 90vh;
+  width: 45vw;
+  text-align: center;
+  color: white;
+}
+
+#contact_page{
+  background-color: #037057;
+  background-color: black;
+  height: 60vh;
+  width: 100vw;
+  color: #e8e8e8;
+    background-image: -webkit-gradient(
+      linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+      to(rgba(80,80,80,0.2)), color-stop(.5,#333333)
+    );
+    background-image: -moz-linear-gradient(
+      rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%
+    );
+}
+
+.contact_info{
+  margin-top: 3em;
+  text-align: center;
+}
+
+.animate_onHover:hover{
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+
+.container-fluid{
+    height: 100%;
+}
+
+.row{
+    clear: both;
+}
+
+.project_container{
+    height: 100%;
+}
+
+.proj_label_row{
+    height: 10%;
+    margin-bottom: 20px;
+}
+
+.proj_row{
+    height: 90%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.class_row{
+
+}
+
+.employer{
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.work_position{
+    float: left;
+    display: inline-block;
+}
+
+.work_duration{
+    float: right;
+    display: inline-block;
+}
+
+.work_description{
+    display: flex;
+    margin-top: 3em;
+}
+
+.socialMedia{    
+    margin-top: 3em;
+    text-align: center;
+}
+
+.fa{
+    margin-left: .2em;
+    margin-right: .2em;
+}
+
+.email{
+    display: inline-block;
+}
+
+.phone{
+    display: inline-block;
+}
+
+.project_modal{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.project_description{
+    color: white;
+    margin-bottom: 1em;
+}
+
+.project_buttons{
+    margin-bottom: 1em;
+}
+
+.project_buttons .btn{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.work_title{
+    margin-bottom: 4.5em;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-indicators{
+    color: #232323;
+}
+
+.glyphicon-chevron-left{
+    color: #232323;
+}
+
+.glyphicon-chevron-right{
+    color: #232323;
+}
+.typed-cursor {
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.delay-1 {
+  animation-delay: 2s;
+}
+
+.progress {
+  height: 35px;
+
+}
+.progress .skill {
+  font: normal 12px "Open Sans Web";
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 3s;
+}
+
+.progress .progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+#proj_ani{
+  margin-top: 8em;
+}
+
+.resume_btn {
+  color: black;
+  background-color: rgba(245, 245, 245, 0.2);
+}
